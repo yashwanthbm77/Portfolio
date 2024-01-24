@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <!-- icons tag -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#project">PROJECT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class='bx bx-chevron-left' onclick="closemenu()"></i>
+                </ul>
+                <i class='bx bx-menu' onclick="openmenu()"></i>
+            </nav>
+           
+            <hr>
+            <div class="header-text">
+                <p>Full Stack developer</p>
+                <h1>Hi,I'm <br><span>YASHWANTH</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------ABOUT -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aboutme.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1>About <span>ME</span></h1>
+                    <p>Passionate web developer skilled in building attractive and user-friendly websites. I'm good at using HTML, CSS, JavaScript, and frameworks to create websites that look great and work well. I enjoy working with others to bring creative web development ideas to life.</p>
+        
+                    <hr>
+                    <div class="about-list">
+                        <div>
+                            <h2>SKILLS</h2>
+                            <hr style="border-color: red;">
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                                <li>Python</li>
+                                <li>Django</li>
+                                <li>SQL</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2>EDUCATION</h2>
+                            <hr style="border-color: red;">
+                            <ul>
+                                <li><span><b>Degree</b></span> : BCA | CGPA 7.34</li>
+                                <p>GMS Accademy First Grade College Davangere</p>
+                                <li><span><b>PUC </b></span> : 69.3 %</li>
+                                <p>Vyshnavi Chetana PU Science College</p>
+                                <li><span><b>KSEEB</b></span> : 67.5 %</li>
+                                <p>Maria Nivasa School</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div id="project">
+        <div class="container">
+            <h1>PROJECT</h1>
+            <hr>
+            <div class="project-list">
+                <div>
+                    <h2>AMAZON</h2>
+                    <p>Built an impressive Amazon clone using HTML5, CSS3, and JavaScript. Designed intricate elements and dynamic features, showcasing advanced technical skills. Demonstrated precision and innovation in creating a sophisticated web replica.</p>
+                    <a href="https://yashwanthbm77.github.io/AmazonClone/">View</a>
+                </div>
+                <div>
+                    <h2>E-Com Website</h2>
+                    <p>An E-commerce site with Django, integrating key features for a smooth user experience. Used a variety of technical skills to ensure high performance and functionality.</p>
+                    <a href="">View</a>
+                </div>
+                <div>
+                    <h2>File Organizer</h2>
+                    <p>Developed a smart file organizer in Python, using advanced scripting to neatly arrange files by its extension automatically, boosting file management efficiency.</p>
+                    <a href="">View</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ----------------------Contact me----------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1>CONTACT</h1>
+                <hr>
+                <p><i class='bx bxl-telegram' style='color:#ffffff' ></i> <a href="mailto: yashwanthbm456@gmail.com">yashwanthbm456@gmail.com</a></p>
+                <p><i class='bx bx-phone'></i> <a href="tel:+91 9353943736">+91 9353943736</a></p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/yashwath-b-mygaleri-530256286" class="l"><i class='bx bxl-linkedin-square' style='color:#ffffff' ></i></a>
+                    <a href="" class="w"><i class='bx bxl-whatsapp' style='color:#ffffff' ></i></a>
+                    <a href="https://twitter.com/yashwanth_bm07?t=y1kHquYw61e1ddT6BHUXYw&s=09" class="t"><i class='bx bxl-twitter' style='color:#ffffff' ></i></a>
+                </div>
+                <a href="images/Yashwanth.docx" class="download" download>Download CV</a>
+            </div>
+        </div>
+        <div class="contact-right">
+
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right = '0'
+    }
+    function closemenu(){
+        sidemenu.style.right = '-200px'
+    }
+</script>
+
+</body>
+</html>
